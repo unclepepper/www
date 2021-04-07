@@ -168,29 +168,35 @@
     
     .header-internal-block {
         width: 100ex;
-        height: 100%;
-        /* border: 1px solid #fff; */
+        height: 90%;
         display: flex;
         align-items: center;
         justify-content: center;
+        border: 1px solid rgba(221, 189, 179, 0.212);
+        border-radius: 10px;
+        box-shadow: 0 0 15px rgba(221, 189, 179, 0.212);
+    }
+    
+    .header-internal-block:not(:nth-child(3)) {
+        margin-right: 10px;
     }
     
     .cam {
         width: 35%;
         height: 60%;
-        filter: drop-shadow(0 0 5px rgb(235, 11, 216));
+        filter: drop-shadow(0 0 5px rgb(214, 73, 16));
         /* margin-right: auto; */
     }
     
     h3 {
         color: white;
-        filter: drop-shadow(0 0 5px rgb(235, 11, 216));
+        filter: drop-shadow(0 0 5px rgb(218, 187, 174));
     }
     
     h2 {
         width: 50%;
         color: white;
-        filter: drop-shadow(0 0 5px rgb(235, 11, 216));
+        filter: drop-shadow(0 0 5px rgb(218, 187, 174));
         margin-left: auto;
     }
     
